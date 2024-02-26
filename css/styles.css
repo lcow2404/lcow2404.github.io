@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-section {
+    text-align: center;
+}
+.welcome-section h1{
+        color:#4CAF50;
+    }
+
+section p {
+    text-align: justify;
+}
+p{
+    text-align: center;
+}
+section.specials-section {
+    text-align: center;
+}
+section.specials-section p {
+    text-align: center;
+}
+p#key
+{
+    text-align: left;
+    padding-left: 100px;
+}
+/* Global Styles */
+body {
+    background-color: #f8f8f8; /* Light grey background */
+    font-family: 'Arial', sans-serif; /* Default font family */
+    color: #333; /* Default text color */
+}
+ul li
+{
+    margin: 0;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Dark green background */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #fff; /* White border at the bottom */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 8px 12px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #fff; /* White border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #4CAF50; /* Dark green text color on hover */
+}
+
+/* Main Section Styles */
+main {
+    display: block;
+    margin: 20px 0;
+    padding: 20
+}
+
