@@ -1,0 +1,81 @@
+/* Styles for team section */
+.team-section {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h2 {
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+.team-member p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Styles for navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #4CAF50;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* team.css */
+
+/* Styles for the team section */
+.team-section {
+    padding: 20px;
+}
+
+/* Styles for the "Who We Are" section */
+.who-we-are {
+    margin-bottom: 30px;
+}
+
+/* Styles for team member images */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make the images circular */
+    margin-bottom: 10px;
+}
