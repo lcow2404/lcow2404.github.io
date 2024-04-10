@@ -1,0 +1,39 @@
+/* Styles for media.html */
+
+.media-section .video {
+    width: calc(50% - 10px); /* Adjust the width as needed */
+    margin-left: 0; /* Reset margin-left */
+    margin-right: 10px; /* Add right margin instead */
+    max-width: 600px; /* Increase the maximum width if necessary */
+}
+
+.media-section .audio,
+.media-section .video {
+    margin-bottom: 20px; /* Add margin below items */
+}
+
+.media-section .media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+}
+
+
+/* Styles for footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}

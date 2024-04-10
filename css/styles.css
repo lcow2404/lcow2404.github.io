@@ -1,51 +1,14 @@
-/* styles.css */
-
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, ol, li {
     margin: 0;
     padding: 0;
 }
 
-.welcome-section {
-    text-align: center;
-}
-.welcome-section h1{
-        color:#4CAF50;
-    }
-
-section p {
-    text-align: justify;
-}
-p{
-    text-align: center;
-}
-section.specials-section {
-    text-align: center;
-}
-section.specials-section p {
-    text-align: center;
-}
-p#key
-{
-    text-align: left;
-    padding-left: 100px;
-}
 /* Global Styles */
 body {
     background-color: #f8f8f8; /* Light grey background */
     font-family: 'Arial', sans-serif; /* Default font family */
     color: #333; /* Default text color */
-}
-ul li
-{
-    margin: 0;
-    padding-left: 100px;
-    text-align: left;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto; /* Center the container */
 }
 
 /* Header Styles */
@@ -81,10 +44,105 @@ nav a:hover {
     color: #4CAF50; /* Dark green text color on hover */
 }
 
-/* Main Section Styles */
-main {
-    display: block;
-    margin: 20px 0;
-    padding: 20
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
 }
 
+/* Main Section Styles */
+main {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+    text-align: center;
+}
+
+.welcome-section h1 {
+    color: #4CAF50;
+}
+
+.welcome-section p {
+    text-align: justify;
+}
+
+/* Specials Section Styles */
+.specials-section {
+    text-align: center;
+}
+
+.specials-section p {
+    text-align: center;
+}
+
+p#key {
+    text-align: left;
+    padding-left: 100px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0;
+    padding-left: 100px;
+    text-align: left;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    nav img {
+        width: 80px; /* Adjust width for mobile */
+        height: auto; /* Ensure image height scales proportionally */
+    }
+
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+
+    .welcome-section,
+    .specials-section {
+        padding: 10px; /* Adjust section padding for smaller screens */
+    }
+
+    p#key {
+        padding-left: 10px; /* Adjust left padding for smaller screens */
+    }
+
+    ul li {
+        padding-left: 10px; /* Adjust left padding for smaller screens */
+    }
+}
+
+/* Styles for footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}

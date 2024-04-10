@@ -1,0 +1,88 @@
+/* Styles for contact.html */
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    text-align: center;
+}
+
+.contact-section form {
+    margin-top: 30px;
+}
+
+.contact-section fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.contact-section legend {
+    font-weight: bold;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button[type="submit"] {
+    margin-right: 10px;
+}
+
+.contact-section button[type="reset"] {
+    background-color: #dc3545;
+}
+
+.contact-section button:hover {
+    background-color: #0056b3;
+}
+
+.contact-section button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}

@@ -1,9 +1,8 @@
-/* training.css */
-
 /* Table Styles */
 .training-table {
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling on smaller screens */
 }
 
 table {
@@ -50,4 +49,27 @@ tr:hover {
     table {
         font-size: 0.8em;
     }
+    
+    .training-table {
+        overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
+    }
+}
+
+/* Styles for footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
 }

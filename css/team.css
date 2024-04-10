@@ -1,16 +1,21 @@
 /* Styles for team section */
 .team-section {
     text-align: center;
+    padding: 20px; /* Added padding for better spacing */
 }
 
+/* Styles for team member */
 .team-member {
     display: inline-block;
     margin: 20px;
+    vertical-align: top; /* Ensure alignment of team members */
+    width: calc(50% - 40px); /* Make team members take up 50% width of the container */
+    max-width: 250px; /* Limit maximum width of team members */
 }
 
 .team-member img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
     border-radius: 50%;
     object-fit: cover;
 }
@@ -18,11 +23,13 @@
 .team-member h2 {
     margin-top: 10px;
     color: #4CAF50;
+    font-size: 18px; /* Increase font size for better readability */
 }
 
 .team-member p {
     margin: 5px 0;
     color: #555;
+    font-size: 16px; /* Increase font size for better readability */
 }
 
 /* Styles for navigation links */
@@ -60,22 +67,11 @@ footer a {
     color: #fff;
 }
 
-/* team.css */
-
-/* Styles for the team section */
-.team-section {
-    padding: 20px;
+/* Mobile and Tablet Styles */
+@media only screen and (max-width: 767px) {
+    /* Adjust team member width for smaller screens */
+    .team-member {
+        width: calc(100% - 40px); /* Make team members take up full width */
+    }
 }
 
-/* Styles for the "Who We Are" section */
-.who-we-are {
-    margin-bottom: 30px;
-}
-
-/* Styles for team member images */
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Make the images circular */
-    margin-bottom: 10px;
-}
